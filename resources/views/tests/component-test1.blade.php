@@ -3,4 +3,6 @@
         ヘッダー1
     </x-slot>
     コンポーネントテスト1
+
+    <x-tests.card title="たいとる" content="あいうえお" />
 </x-tests.app>
