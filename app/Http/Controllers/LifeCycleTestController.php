@@ -13,7 +13,9 @@ class LifeCycleTestController extends Controller
 
         $sample = app()->make("serviceProviderTest");
 
-        dd($sample, $password, $encrypt->decrypt($password));
+        // dd($sample, $password, $encrypt->decrypt($password));
+        // dd(app());
+        ddd(app());
     }
 
     public function lifeCycleTest()
@@ -34,7 +36,7 @@ class LifeCycleTestController extends Controller
         $sample = app()->make('sample');
         $sample->run();
 
-        dd($test);
+        // dd($test);
     }
 }
 
