@@ -12,6 +12,60 @@
 
 namespace App\Models{
 /**
+ * App\Models\Admin
+ *
+ * @property int $id
+ * @property string $name
+ * @property string $email
+ * @property \Illuminate\Support\Carbon|null $email_verified_at
+ * @property string $password
+ * @property string|null $remember_token
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin whereEmailVerifiedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin wherePassword($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin whereRememberToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Admin whereUpdatedAt($value)
+ */
+	class Admin extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
+ * App\Models\Owner
+ *
+ * @property int $id
+ * @property string $name
+ * @property string $email
+ * @property \Illuminate\Support\Carbon|null $email_verified_at
+ * @property string $password
+ * @property string|null $remember_token
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner whereEmailVerifiedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner wherePassword($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner whereRememberToken($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Owner whereUpdatedAt($value)
+ */
+	class Owner extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\User
  *
  * @property int $id
